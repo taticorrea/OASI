@@ -1,0 +1,2061 @@
+
+########### 2019-01-8              Feb  2 19:38: IMCOMBINE
+  combine = median, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 9, gain = 1.175, snoise = 0., sigma = 3., hsigma = 3.
+  blank = 0.
+                Images     Mode  Scale
+      Bias_b2x2-001.fit   1057.  0.999
+      Bias_b2x2-002.fit   1056.  1.000
+      Bias_b2x2-003.fit   1056.  1.000
+      Bias_b2x2-004.fit   1058.  0.998
+      Bias_b2x2-005.fit   1056.  1.000
+      Bias_b2x2-006.fit   1058.  0.998
+      Bias_b2x2-007.fit   1057.  0.999
+      Bias_b2x2-008.fit   1058.  0.998
+      Bias_b2x2-009.fit   1056.  1.000
+      Bias_b2x2-010.fit   1056.  1.000
+      Bias_b2x2-011.fit   1057.  0.999
+      Bias_b2x2-012.fit   1056.  1.000
+      Bias_b2x2-013.fit   1055.  1.001
+      Bias_b2x2-014.fit   1054.  1.002
+      Bias_b2x2-015.fit   1056.  1.000
+
+  Output image = masterbias.fits, ncombine = 15
+
+Feb  2 19:38: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = sigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Mode  Scale
+  Flat_1.2s_b2x2-001_R.fit  30613.  1.003
+  Flat_1.2s_b2x2-002_R.fit  30782.  0.997
+
+  Output image = masterflat.fits, ncombine = 2
+
+Feb  2 19:38: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  Dark_40s_b2x2-001.fit
+  Dark_40s_b2x2-002.fit
+  Dark_40s_b2x2-003.fit
+  Dark_40s_b2x2-004.fit
+  Dark_40s_b2x2-005.fit
+  Dark_40s_b2x2-006.fit
+  Dark_40s_b2x2-007.fit
+  Dark_40s_b2x2-008.fit
+  Dark_40s_b2x2-009.fit
+  Dark_40s_b2x2-010.fit
+
+  Output image = masterdark.fits, ncombine = 10
+1998NU_40s_b2x2-001_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+masterdark.fits: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-001_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+masterflat.fits: Feb  2 19:38 Zero level correction image is masterbias.fits
+masterflat.fits: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=0.03000022
+1998NU_40s_b2x2-001_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-002_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-002_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-002_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-003_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-003_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-003_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-004_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-004_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-004_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-005_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-005_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-005_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-006_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-006_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-006_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-007_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-007_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-007_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-008_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-008_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-008_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-009_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-009_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-009_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-010_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-010_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-010_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-011_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-011_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-011_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-012_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-012_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-012_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-013_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-013_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-013_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-014_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-014_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-014_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-015_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-015_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-015_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-016_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-016_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-016_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-017_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-017_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-017_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-018_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-018_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-018_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-019_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-019_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-019_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-020_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-020_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-020_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-021_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-021_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-021_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-022_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-022_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-022_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-023_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-023_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-023_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-024_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-024_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-024_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-025_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-025_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-025_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-026_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-026_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-026_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-027_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-027_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-027_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-028_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-028_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-028_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-029_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-029_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-029_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-030_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-030_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-030_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-031_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-031_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-031_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-032_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-032_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-032_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-033_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-033_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-033_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-034_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-034_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-034_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-035_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-035_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-035_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-036_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-036_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-036_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-037_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-037_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-037_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-038_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-038_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-038_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-039_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-039_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-039_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-040_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-040_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-040_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-041_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-041_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-041_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-042_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-042_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-042_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-043_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-043_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-043_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-044_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-044_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-044_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-045_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-045_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-045_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-046_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-046_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-046_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-047_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-047_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-047_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-048_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-048_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-048_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-049_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-049_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-049_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-050_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-050_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-050_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-051_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-051_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-051_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-052_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-052_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-052_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-053_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-053_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-053_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-054_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-054_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-054_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-055_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-055_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-055_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-056_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-056_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-056_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-057_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-057_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-057_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-058_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-058_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-058_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-059_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-059_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-059_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-060_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-060_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-060_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-061_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-061_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-061_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-062_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-062_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-062_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-063_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-063_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-063_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-064_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-064_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-064_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-065_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-065_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-065_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-066_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-066_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-066_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-067_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-067_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-067_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-068_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-068_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-068_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-069_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-069_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-069_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-070_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-070_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-070_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-071_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-071_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-071_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-072_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-072_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-072_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-073_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-073_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-073_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-074_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-074_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-074_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-075_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-075_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-075_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-076_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-076_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-076_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-077_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-077_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-077_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-078_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-078_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-078_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-079_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-079_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-079_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-080_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-080_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-080_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-081_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-081_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-081_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-082_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-082_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-082_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-083_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-083_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-083_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-084_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-084_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-084_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-085_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-085_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-085_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-086_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-086_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-086_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-087_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-087_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-087_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-088_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-088_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-088_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-089_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-089_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-089_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-090_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-090_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-090_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-091_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-091_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-091_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-092_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-092_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-092_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-093_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-093_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-093_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-094_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-094_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-094_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-095_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-095_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-095_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-096_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-096_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-096_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-097_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-097_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-097_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-098_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-098_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-098_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-099_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-099_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-099_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-100_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-100_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-100_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-101_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-101_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-101_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-102_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-102_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-102_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-103_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-103_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-103_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-104_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-104_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-104_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-105_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-105_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-105_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-106_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-106_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-106_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-107_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-107_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-107_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-108_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-108_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-108_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-109_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-109_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-109_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-110_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-110_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-110_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-111_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-111_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-111_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-112_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-112_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-112_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-113_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-113_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-113_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-114_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-114_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-114_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-115_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-115_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-115_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-116_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-116_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-116_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-117_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-117_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-117_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-118_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-118_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-118_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-119_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-119_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-119_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-120_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-120_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-120_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-121_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-121_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-121_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-122_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-122_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-122_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-123_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-123_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-123_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-124_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-124_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-124_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-125_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-125_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-125_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-126_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-126_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-126_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-127_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-127_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-127_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-128_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-128_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-128_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-129_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-129_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-129_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-130_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-130_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-130_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-131_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-131_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-131_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-132_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-132_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-132_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-133_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-133_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-133_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-134_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-134_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-134_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-135_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-135_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-135_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-136_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-136_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-136_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-137_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-137_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-137_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-138_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-138_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-138_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-139_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-139_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-139_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-140_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-140_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-140_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-141_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-141_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-141_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-142_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-142_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-142_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-143_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-143_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-143_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-144_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-144_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-144_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-145_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-145_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-145_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-146_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-146_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-146_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-147_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-147_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-147_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-148_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-148_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-148_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-149_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-149_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-149_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-150_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-150_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-150_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-151_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-151_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-151_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-152_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-152_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-152_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-153_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-153_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-153_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-154_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-154_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-154_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-155_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-155_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-155_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-156_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-156_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-156_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-157_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-157_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-157_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-158_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-158_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-158_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-159_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-159_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-159_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-160_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-160_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-160_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-161_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-161_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-161_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-162_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-162_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-162_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-163_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-163_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-163_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-164_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-164_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-164_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-165_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-165_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-165_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-166_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-166_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-166_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-167_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-167_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-167_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-168_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-168_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-168_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-169_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-169_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-169_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-170_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-170_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-170_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-171_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-171_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-171_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-172_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-172_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-172_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-173_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-173_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-173_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-174_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-174_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-174_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-175_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-175_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-175_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-176_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-176_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-176_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-177_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-177_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-177_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-178_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-178_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-178_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-179_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-179_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-179_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-180_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-180_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-180_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-181_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-181_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-181_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-182_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-182_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-182_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-183_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-183_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-183_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-184_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-184_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-184_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-185_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-185_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-185_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-186_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-186_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-186_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-187_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-187_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-187_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-188_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-188_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-188_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-189_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-189_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-189_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-190_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-190_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-190_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-191_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-191_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-191_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-192_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-192_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-192_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-193_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-193_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-193_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-194_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-194_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-194_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-195_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-195_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-195_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-196_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-196_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-196_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-197_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-197_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-197_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-198_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-198_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-198_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-199_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-199_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-199_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-200_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-200_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-200_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-201_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-201_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-201_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-202_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-202_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-202_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-203_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-203_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-203_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-204_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-204_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-204_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-205_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-205_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-205_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-206_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-206_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-206_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-207_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-207_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-207_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-208_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-208_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-208_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-209_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-209_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-209_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-210_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-210_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-210_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-211_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-211_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-211_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-212_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-212_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-212_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-213_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-213_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-213_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-214_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-214_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-214_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-215_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-215_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-215_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-216_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-216_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-216_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-217_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-217_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-217_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-218_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-218_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-218_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-219_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-219_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-219_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-220_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-220_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-220_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-221_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-221_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-221_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-222_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-222_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-222_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-223_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-223_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-223_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-224_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-224_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-224_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-225_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-225_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-225_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-226_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-226_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-226_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-227_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-227_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-227_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-228_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-228_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-228_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-229_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-229_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-229_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-230_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-230_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-230_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-231_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-231_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-231_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-232_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-232_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-232_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-233_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-233_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-233_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-234_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-234_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-234_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-235_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-235_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-235_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-236_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-236_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-236_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-237_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-237_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-237_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-238_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-238_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-238_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-239_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-239_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-239_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-240_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-240_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-240_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-241_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-241_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-241_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-242_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-242_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-242_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-243_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-243_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-243_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-244_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-244_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-244_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-245_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-245_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-245_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-246_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-246_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-246_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-247_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-247_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-247_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-248_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-248_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-248_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-249_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-249_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-249_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-250_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-250_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-250_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-251_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-251_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-251_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-252_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-252_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-252_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-253_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-253_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-253_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-254_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-254_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-254_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-255_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-255_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-255_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-256_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-256_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-256_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-257_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-257_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-257_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-258_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-258_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-258_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-259_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-259_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-259_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-260_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-260_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-260_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-261_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-261_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-261_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-262_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-262_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-262_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-263_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-263_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-263_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-264_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-264_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-264_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-265_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-265_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-265_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-266_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-266_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-266_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-267_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-267_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-267_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-268_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-268_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-268_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-269_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-269_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-269_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-270_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-270_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-270_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-271_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-271_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-271_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-272_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-272_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-272_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-273_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-273_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-273_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-274_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-274_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-274_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-275_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-275_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-275_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-276_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-276_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-276_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-277_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-277_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-277_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-278_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-278_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-278_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-279_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-279_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-279_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-280_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-280_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-280_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-281_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-281_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-281_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-282_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-282_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-282_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-283_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-283_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-283_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-284_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-284_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-284_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-285_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-285_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-285_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-286_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-286_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-286_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-287_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-287_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-287_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-288_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-288_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-288_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-289_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-289_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-289_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-290_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-290_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-290_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-291_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-291_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-291_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-292_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-292_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-292_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-293_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-293_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-293_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-294_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-294_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-294_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-295_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-295_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-295_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-296_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-296_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-296_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-297_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-297_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-297_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-298_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-298_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-298_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-299_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-299_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-299_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-300_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-300_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-300_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-301_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-301_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-301_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-302_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-302_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-302_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-303_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-303_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-303_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-304_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-304_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-304_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-305_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-305_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-305_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-306_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-306_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-306_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-307_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-307_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-307_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-308_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-308_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-308_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-309_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-309_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-309_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-310_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-310_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-310_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-311_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-311_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-311_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-312_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-312_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-312_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-313_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-313_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-313_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-314_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-314_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-314_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-315_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-315_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-315_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-316_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-316_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-316_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-317_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-317_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-317_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-318_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-318_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-318_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-319_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-319_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-319_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-320_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-320_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-320_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-321_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-321_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-321_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-322_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-322_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-322_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-323_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-323_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-323_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-324_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-324_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-324_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-325_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-325_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-325_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-326_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-326_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-326_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-327_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-327_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-327_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-328_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-328_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-328_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-329_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-329_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-329_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-330_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-330_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-330_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-331_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-331_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-331_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-332_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-332_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-332_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-333_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-333_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-333_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-334_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-334_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-334_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-335_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-335_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-335_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-336_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-336_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-336_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-337_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-337_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-337_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-338_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-338_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-338_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-339_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-339_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-339_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-340_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-340_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-340_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-341_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-341_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-341_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-342_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-342_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-342_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-343_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-343_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-343_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-344_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-344_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-344_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-345_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-345_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-345_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-346_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-346_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-346_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-347_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-347_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-347_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-348_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-348_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-348_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-349_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-349_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-349_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-350_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-350_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-350_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-351_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-351_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-351_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-352_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-352_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-352_R.fit: Feb  2 19:38 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-353_R.fit: Feb  2 19:38 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-353_R.fit: Feb  2 19:38 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-353_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-354_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-354_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-354_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-355_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-355_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-355_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-356_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-356_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-356_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-357_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-357_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-357_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-358_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-358_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-358_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-359_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-359_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-359_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-360_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-360_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-360_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-361_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-361_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-361_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-362_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-362_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-362_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-363_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-363_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-363_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-364_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-364_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-364_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-365_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-365_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-365_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-366_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-366_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-366_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-367_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-367_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-367_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-368_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-368_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-368_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-369_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-369_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-369_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-370_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-370_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-370_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-371_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-371_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-371_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-372_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-372_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-372_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-373_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-373_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-373_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-374_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-374_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-374_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-375_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-375_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-375_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-376_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-376_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-376_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-377_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-377_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-377_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-378_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-378_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-378_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-379_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-379_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-379_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-380_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-380_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-380_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-381_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-381_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-381_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-382_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-382_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-382_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-383_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-383_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-383_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-384_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-384_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-384_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-385_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-385_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-385_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-386_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-386_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-386_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-387_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-387_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-387_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-388_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-388_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-388_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-389_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-389_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-389_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-390_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-390_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-390_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-391_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-391_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-391_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-392_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-392_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-392_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-393_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-393_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-393_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-394_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-394_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-394_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-395_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-395_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-395_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-396_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-396_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-396_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-397_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-397_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-397_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-398_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-398_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-398_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-399_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-399_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-399_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-400_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-400_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-400_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-401_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-401_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-401_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-402_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-402_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-402_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-403_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-403_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-403_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-404_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-404_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-404_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-405_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-405_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-405_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-406_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-406_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-406_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-407_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-407_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-407_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-408_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-408_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-408_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-409_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-409_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-409_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-410_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-410_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-410_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-411_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-411_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-411_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-412_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-412_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-412_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-413_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-413_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-413_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-414_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-414_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-414_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-415_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-415_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-415_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-416_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-416_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-416_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-417_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-417_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-417_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-418_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-418_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-418_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-419_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-419_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-419_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-420_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-420_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-420_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-421_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-421_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-421_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-422_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-422_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-422_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-423_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-423_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-423_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-424_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-424_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-424_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-425_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-425_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-425_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-426_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-426_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-426_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-427_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-427_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-427_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-428_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-428_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-428_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-429_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-429_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-429_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-430_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-430_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-430_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-431_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-431_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-431_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-432_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-432_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-432_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-433_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-433_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-433_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-434_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-434_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-434_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-435_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-435_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-435_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-436_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-436_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-436_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-437_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-437_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-437_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-438_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-438_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-438_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-439_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-439_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-439_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-440_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-440_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-440_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-441_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-441_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-441_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-442_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-442_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-442_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-443_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-443_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-443_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-444_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-444_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-444_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-445_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-445_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-445_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-446_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-446_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-446_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-447_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-447_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-447_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-448_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-448_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-448_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-449_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-449_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-449_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-450_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-450_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-450_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-451_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-451_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-451_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-452_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-452_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-452_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-453_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-453_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-453_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-454_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-454_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-454_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-455_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-455_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-455_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-456_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-456_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-456_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-457_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-457_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-457_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-458_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-458_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-458_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-459_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-459_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-459_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-460_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-460_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-460_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-461_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-461_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-461_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-462_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-462_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-462_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-463_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-463_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-463_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-464_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-464_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-464_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-465_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-465_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-465_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-466_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-466_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-466_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-467_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-467_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-467_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-468_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-468_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-468_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-469_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-469_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-469_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-470_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-470_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-470_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-471_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-471_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-471_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-472_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-472_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-472_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-473_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-473_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-473_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-474_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-474_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-474_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-475_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-475_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-475_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-476_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-476_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-476_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-477_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-477_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-477_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-478_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-478_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-478_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-479_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-479_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-479_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-480_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-480_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-480_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-481_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-481_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-481_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-482_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-482_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-482_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-483_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-483_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-483_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-484_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-484_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-484_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-485_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-485_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-485_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-486_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-486_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-486_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-487_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-487_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-487_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-488_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-488_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-488_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-489_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-489_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-489_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-490_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-490_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-490_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-491_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-491_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-491_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-492_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-492_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-492_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-493_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-493_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-493_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-494_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-494_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-494_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-495_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-495_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-495_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-496_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-496_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-496_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-497_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-497_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-497_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-498_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-498_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-498_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-499_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-499_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-499_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-500_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-500_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-500_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-501_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-501_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-501_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-502_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-502_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-502_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-503_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-503_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-503_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-504_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-504_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-504_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-505_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-505_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-505_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-506_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-506_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-506_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-507_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-507_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-507_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-508_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-508_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-508_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-509_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-509_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-509_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-510_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-510_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-510_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-511_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-511_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-511_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-512_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-512_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-512_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-513_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-513_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-513_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-514_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-514_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-514_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-515_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-515_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-515_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-516_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-516_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-516_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-517_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-517_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-517_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-518_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-518_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-518_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-519_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-519_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-519_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-520_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-520_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-520_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-521_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-521_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-521_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-522_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-522_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-522_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-523_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-523_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-523_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-524_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-524_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-524_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-525_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-525_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-525_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-526_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-526_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-526_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-527_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-527_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-527_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-528_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-528_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-528_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-529_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-529_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-529_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-530_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-530_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-530_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-531_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-531_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-531_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-532_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-532_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-532_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-533_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-533_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-533_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-534_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-534_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-534_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-535_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-535_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-535_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-536_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-536_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-536_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-537_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-537_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-537_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-538_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-538_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-538_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-539_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-539_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-539_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-540_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-540_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-540_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-541_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-541_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-541_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-542_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-542_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-542_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-543_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-543_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-543_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-544_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-544_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-544_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-545_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-545_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-545_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-546_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-546_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-546_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-547_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-547_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-547_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-548_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-548_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-548_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-549_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-549_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-549_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-550_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-550_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-550_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-551_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-551_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-551_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-552_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-552_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-552_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-553_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-553_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-553_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-554_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-554_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-554_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-555_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-555_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-555_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-556_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-556_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-556_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-557_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-557_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-557_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-558_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-558_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-558_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-559_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-559_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-559_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-560_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-560_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-560_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-561_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-561_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-561_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-562_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-562_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-562_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-563_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-563_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-563_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-564_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-564_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-564_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+1998NU_40s_b2x2-565_R.fit: Feb  2 19:39 Zero level correction image is masterbias.fits
+1998NU_40s_b2x2-565_R.fit: Feb  2 19:39 Dark count correction image is masterdark.fits with scale=1.
+1998NU_40s_b2x2-565_R.fit: Feb  2 19:39 Flat field image is masterflat.fits with scale=29425.54
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 09:33:34 03-Feb-2020
+
+   ###################### ######################### RAW DATA ######################### ####################### 
+
+
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:12:59 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  354.21   90.73    0.69   1.987    0.14     -73
+                 354.21   90.73    0.69   1.987    0.14     -73
+                 241.12  122.93    1.26   1.892    0.18     -70
+                 261.75  135.62    2.54   2.042    0.15     -13
+                  25.57  482.04    0.93   1.986    0.23     -88
+                 284.40  425.82    0.28   2.040    0.11     -39
+                 284.40  425.82    0.28   2.040    0.11     -39
+                 300.10  416.28    0.00   1.946    0.06     -54
+                 296.73  328.26    0.07   2.132    0.11     -61
+
+  Average full width at half maximum (FWHM) of 2.0153
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:15:14 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  352.16  104.59    0.70   1.997    0.14     -49
+                 347.37  196.68    2.58   2.042    0.23     -61
+                 458.83  274.10    1.52   1.929    0.21     -35
+                 429.10  315.59    1.72   1.947    0.22     -52
+                 217.13  283.64    1.12   1.966    0.13     -61
+                 294.72  342.25    0.08   2.002    0.05     -58
+                 298.15  430.42    0.00   1.992    0.12     -40
+                 282.48  439.95    0.28   1.974    0.09     -51
+                  23.46  496.15    0.91   1.975    0.17      84
+
+  Average full width at half maximum (FWHM) of 1.9836
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:17:01 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  424.63  129.56    0.70   2.184    0.11     -47
+                 419.78  221.64    2.58   2.124    0.11     -25
+                 501.54  340.68    1.73   2.178    0.18     -48
+                 366.99  367.37    0.10   2.060    0.14     -43
+                 370.48  455.52    0.00   2.242    0.15     -52
+                 354.79  464.98    0.29   2.134    0.15     -57
+                 289.48  308.66    1.13   2.188    0.07     -40
+                 315.71  189.55    1.23   2.140    0.15     -37
+                 332.00  174.61    2.50   2.104    0.11     -31
+                  11.11  169.05    0.32   2.024    0.08     -53
+                 109.06  373.95    2.18   2.040    0.17      84
+
+  Average full width at half maximum (FWHM) of 2.1337
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:18:45 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  422.85  132.04    0.69   2.038    0.08      33
+                 499.82  343.00    1.76   2.078    0.15     -66
+                 416.75  327.58    2.39   2.204    0.01      29
+                 365.19  369.72    0.09   2.154    0.02     -56
+                 368.78  457.86    0.00   2.094    0.05     -56
+                 353.06  467.27    0.28   2.096    0.06     -47
+                 287.79  311.02    1.12   2.128    0.07     -80
+                 315.89  206.53    1.30   2.096    0.09     -65
+                   9.46  171.61    0.31   2.182    0.06     -60
+                  33.33  297.50    3.02   2.222    0.20     -37
+                  33.33  297.50    3.02   2.222    0.20     -37
+
+  Average full width at half maximum (FWHM) of 2.1199
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:20:06 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  369.92   97.30    2.17   1.823    0.18     -47
+                 423.52  134.40    0.68   1.966    0.05     -58
+                 423.52  134.40    0.68   1.966    0.05     -58
+                 500.63  345.34    1.74   1.896    0.12      56
+                 366.07  372.19    0.09   1.748    0.03     -85
+                 369.68  460.31    0.00   1.832    0.04     -20
+                 353.97  469.85    0.28   1.680    0.05     -60
+                 318.32  224.01    1.26   1.856    0.13      83
+                 318.32  224.01    1.26   1.856    0.13      83
+                  10.10  174.30    0.31   1.841    0.02      81
+                 106.30  205.63    2.17   1.990    0.16     -68
+
+  Average full width at half maximum (FWHM) of 1.8327
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:21:36 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  425.59  134.56    0.63   2.066    0.04      58
+                 420.94  226.73    2.48   2.008    0.09      38
+                 425.59  134.56    0.63   2.066    0.04      58
+                 290.80  313.83    1.14   1.954    0.04     -60
+                 368.30  372.35    0.08   2.100    0.05      28
+                 372.02  460.59    0.00   2.014    0.03       2
+                 356.32  470.07    0.28   2.030    0.04      78
+
+  Average full width at half maximum (FWHM) of 2.0442
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:23:02 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  372.82   90.35    2.13   2.060    0.09     -69
+                 426.51  127.37    0.70   2.146    0.02     -40
+                 397.80  149.51    3.61   2.140    0.04      28
+                 481.87  289.91    2.22   2.096    0.13       4
+                 420.94  323.01    2.43   2.048    0.08     -59
+                 420.94  323.01    2.43   2.048    0.08     -59
+                 325.20  248.14    1.22   2.108    0.04       1
+                 291.87  306.81    1.14   2.054    0.02     -81
+                 369.50  365.27    0.10   2.166    0.03     -80
+                 373.24  453.45    0.00   2.178    0.02     -46
+                 357.61  462.98    0.28   2.096    0.04     -72
+                 111.66  372.63    2.20   2.078    0.14       0
+                 109.46  199.13    2.24   2.056    0.09     -83
+
+  Average full width at half maximum (FWHM) of 2.1262
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:24:30 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  427.95  129.18    0.69   1.629    0.05      84
+                 492.14  344.52    1.74   1.778    0.13     -83
+                 356.17  363.11    0.10   1.698    0.05      83
+                 354.42  451.32    0.00   1.872    0.05      88
+                 338.19  459.88    0.28   1.721    0.05     -88
+                 308.94  341.72    1.85   1.734    0.11     -53
+                 282.33  299.87    1.14   1.812    0.10     -77
+                 320.53  260.21    1.29   1.811    0.09      88
+                  12.95  144.00    0.32   1.733    0.04     -83
+
+  Average full width at half maximum (FWHM) of 1.7537
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:25:54 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  370.27   84.63    2.04   1.861    0.18      73
+                 421.53  124.86    0.59   1.887    0.14     -56
+                 485.65  340.12    1.60   1.865    0.22      84
+                 403.69  319.74    2.32   1.864    0.15     -42
+                 349.72  358.74    0.00   1.839    0.05     -70
+                 331.74  455.43    0.19   1.876    0.08     -80
+                 275.90  295.45    1.03   1.834    0.06     -27
+
+  Average full width at half maximum (FWHM) of 1.8600
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:28:02 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  343.13   81.45    2.18   2.082    0.17     -11
+                 394.30  121.88    0.68   2.088    0.02      13
+                 299.20  161.08    2.54   1.995    0.21       3
+                 283.08  155.18    2.30   1.958    0.23      17
+                 383.80  213.44    2.61   2.130    0.03      -7
+                 490.24  297.67    1.55   2.088    0.21      25
+                 458.03  337.17    1.75   2.006    0.13      19
+                 322.12  355.60    0.10   2.076    0.01     -20
+                 320.18  443.80    0.00   2.036    0.00      23
+                 303.98  452.23    0.29   2.062    0.02      15
+                  42.14  492.46    0.92   2.148    0.09     -15
+                  73.35  173.02    2.24   2.042    0.21     -66
+                 248.49  292.16    1.14   2.170    0.14      40
+
+  Average full width at half maximum (FWHM) of 2.0736
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:29:14 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  320.64   85.78    4.07   2.196    0.20     -33
+                 347.98  174.17    0.66   2.118    0.07     -19
+                 411.54  268.51    0.00   2.384    0.04     -37
+                 299.19  359.98    2.13   2.274    0.19       0
+                 297.18  448.12    2.02   2.154    0.08      -2
+                  50.63  176.90    4.06   2.340    0.22      38
+
+  Average full width at half maximum (FWHM) of 2.2773
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 11:30:24 03-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  365.61  129.10    2.73   2.308    0.15     -79
+                 341.96  176.97    0.64   2.326    0.08     -20
+                 405.46  271.25    0.00   2.408    0.04     -18
+                 429.05  344.71    3.62   2.222    0.11     -71
+                 293.14  362.67    2.16   2.322    0.09      -6
+                 246.05  341.00    3.85   2.094    0.20     -55
+
+  Average full width at half maximum (FWHM) of 2.3640
+############ 1998NU_40s 11/05/2020 
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 13:49:00 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  354.21   90.73    0.69   1.987    0.14     -73
+                 284.40  425.82    0.28   2.040    0.11     -39
+                 300.10  416.28    0.00   1.946    0.06     -54
+                 296.73  328.26    0.07   2.132    0.11     -61
+
+  Average full width at half maximum (FWHM) of 2.0290
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 14:02:29 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  368.43  458.16    0.00   2.106    0.09     -56
+                 352.78  467.71    0.29   2.072    0.11     -54
+                 287.41  311.32    1.14   2.094    0.16     -60
+                 364.93  370.01    0.09   1.923    0.10     -53
+                 314.71  200.13    1.25   1.953    0.17     -70
+                 499.53  343.34    1.74   2.066    0.08      15
+                 416.39  327.92    2.38   2.098    0.03      60
+                 422.54  132.36    0.68   2.048    0.01     -70
+
+  Average full width at half maximum (FWHM) of 2.0378
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 14:06:21 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  367.90  458.19    0.00   2.156    0.06     -59
+                 352.17  467.67    0.28   2.190    0.07     -68
+                 248.03  406.53    3.05   2.122    0.17      28
+                 183.01  374.26    2.37   2.234    0.19      11
+                   8.44  171.99    0.32   2.148    0.06     -60
+                 104.66  203.22    2.20   2.192    0.17     -24
+                 422.00  132.22    0.68   2.132    0.02      40
+                 392.96  154.21    3.59   2.140    0.11     -84
+                 315.04  207.94    1.32   2.094    0.14     -51
+                 286.85  311.33    1.14   2.192    0.10      86
+                 286.85  311.33    1.14   2.192    0.10      86
+                 364.32  370.04    0.10   2.152    0.03     -48
+                 367.90  458.19    0.00   2.156    0.06     -59
+                 352.17  467.67    0.28   2.190    0.07     -68
+                 422.00  132.22    0.68   2.132    0.02      40
+                 422.00  132.22    0.68   2.132    0.02      40
+
+  Average full width at half maximum (FWHM) of 2.1588
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 14:07:54 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  371.10  456.45    2.09   2.028    0.11     -44
+                 289.88  309.78    3.22   1.965    0.17       6
+                 473.57  269.76    0.00   2.042    0.06     -21
+                 403.95  179.88    0.62   1.915    0.08     -33
+                 424.50  130.41    2.72   2.086    0.09       8
+
+  Average full width at half maximum (FWHM) of 2.0018
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 14:10:01 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  333.72  166.35    2.53   1.721    0.18     -81
+                 421.62  213.11    2.56   1.714    0.09     -34
+                 481.57  283.46    2.15   1.814    0.16     -87
+                 420.69  316.64    2.42   1.777    0.11     -31
+                 369.29  358.95    0.05   1.718    0.06     -49
+                 373.08  447.06    0.00   1.823    0.04     -58
+                 357.39  456.62    0.22   1.852    0.09     -52
+                 325.95  249.49    1.14   1.744    0.10     -20
+                 333.72  166.35    2.53   1.721    0.18     -81
+                  12.82  162.01    0.27   1.659    0.07     -39
+                 188.02  363.73    2.31   1.837    0.18      24
+                 291.60  300.51    1.06   1.902    0.15     -52
+                 369.29  358.95    0.05   1.718    0.06     -49
+                 373.08  447.06    0.00   1.823    0.04     -58
+                 357.39  456.62    0.22   1.852    0.09     -52
+                 357.39  456.62    0.22   1.852    0.09     -52
+
+  Average full width at half maximum (FWHM) of 1.7890
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 14:11:58 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  464.51  289.17    2.21   1.734    0.16     -19
+                 483.62  338.79    1.72   1.730    0.13      73
+                 324.43  162.83    2.44   1.799    0.19      24
+                  98.55  175.22    2.24   1.798    0.17      51
+                  89.89  348.50    2.22   1.757    0.17      48
+                 313.62  272.98    1.24   1.701    0.06     -68
+                 300.46  335.96    1.89   1.707    0.12     -56
+                 347.68  357.37    0.09   1.780    0.03     -89
+                 345.92  445.62    0.00   1.695    0.02      35
+                 329.68  454.12    0.28   1.690    0.03      62
+                 215.24  440.19    2.61   1.683    0.05      69
+                 483.62  338.79    1.72   1.730    0.13      73
+                 464.51  289.17    2.21   1.734    0.16     -19
+
+  Average full width at half maximum (FWHM) of 1.7262
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 14:13:34 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  401.78  119.66    0.66   1.946    0.15     -34
+                 350.60   79.23    2.14   1.963    0.18     -72
+                 329.79  353.46    0.08   1.961    0.03     -17
+                 327.93  441.71    0.00   1.909    0.08     -28
+                 327.93  441.71    0.00   1.909    0.08     -28
+                 311.70  450.14    0.27   1.914    0.03      67
+                 298.80  296.72    1.21   1.908    0.14     -56
+
+  Average full width at half maximum (FWHM) of 1.9259
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 14:15:24 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  377.97  124.22    0.70   2.268    0.04      20
+                 232.04  294.36    1.14   2.408    0.06      57
+                 278.81  328.73    1.28   2.412    0.07     -11
+                 305.61  357.82    0.09   2.376    0.03      35
+                 473.59  300.05    1.53   2.284    0.18      26
+                 473.59  300.05    1.53   2.284    0.18      26
+                 441.46  339.57    1.72   2.426    0.03     -83
+                 472.40  355.84    2.42   2.366    0.05     -62
+                 303.60  446.02    0.00   2.352    0.05     -15
+                 287.39  454.46    0.29   2.412    0.06      24
+                 187.21  386.85    2.94   2.444    0.13     -14
+                 124.45  350.60    2.39   2.478    0.07      41
+                 124.45  350.60    2.39   2.478    0.07      41
+                 124.45  350.60    2.39   2.478    0.07      41
+
+  Average full width at half maximum (FWHM) of 2.3706
+NOAO/IRAF V2.16 tatianecorrea@lenovo Mon 14:16:28 11-May-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+1998NU_40s_b2x2  365.61  129.10    2.73   2.308    0.15     -79
+                 341.96  176.97    0.64   2.326    0.08     -20
+                 405.46  271.25    0.00   2.408    0.04     -18
+                 293.14  362.67    2.16   2.322    0.09      -6
+
+  Average full width at half maximum (FWHM) of 2.3712

@@ -1,0 +1,15 @@
+Bias_b2x2-001.fit
+Bias_b2x2-002.fit
+Bias_b2x2-003.fit
+Bias_b2x2-004.fit
+Bias_b2x2-005.fit
+Bias_b2x2-006.fit
+Bias_b2x2-007.fit
+Bias_b2x2-008.fit
+Bias_b2x2-009.fit
+Bias_b2x2-010.fit
+Bias_b2x2-011.fit
+Bias_b2x2-012.fit
+Bias_b2x2-013.fit
+Bias_b2x2-014.fit
+Bias_b2x2-015.fit

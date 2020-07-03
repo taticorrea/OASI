@@ -1,0 +1,11 @@
+NOAO/IRAF V2.16 tatianecorrea@lenovo Thu 12:34:14 13-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+750_60s_b2x2-01  336.19   36.96    3.04   3.556    0.18      28
+                  36.65  119.43    3.29   3.652    0.11     -85
+                  47.62  248.43    3.87   3.496    0.11      20
+                 143.02  355.97    3.60   3.618    0.16     -62
+                 145.20  411.99    0.00   3.506    0.05     -64
+                 499.99  447.36    1.88   3.682    0.17     -23
+
+  Average full width at half maximum (FWHM) of 3.5393

@@ -1,0 +1,2 @@
+hselect *.fit FILTER,EXPTIME,DATE-OBS,XBINNING,$I > 2019.01.11.dat
+

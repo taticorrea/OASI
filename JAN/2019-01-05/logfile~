@@ -1,0 +1,360 @@
+
+Dec  6  0:51: IMCOMBINE
+  combine = median, scale = mode, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 9, gain = 1.175, snoise = 0., sigma = 3., hsigma = 3.
+  blank = 0.
+                Images     Mode  Scale
+      Bias_b2x2-001.fit   1060.  1.000
+      Bias_b2x2-002.fit   1060.  1.000
+      Bias_b2x2-003.fit   1060.  1.000
+      Bias_b2x2-004.fit   1060.  1.000
+      Bias_b2x2-005.fit   1058.  1.002
+      Bias_b2x2-006.fit   1060.  1.000
+      Bias_b2x2-007.fit   1060.  1.000
+      Bias_b2x2-008.fit   1062.  0.998
+      Bias_b2x2-009.fit   1060.  1.000
+      Bias_b2x2-010.fit   1060.  1.000
+      Bias_b2x2-011.fit   1061.  0.999
+      Bias_b2x2-012.fit   1060.  1.000
+      Bias_b2x2-013.fit   1060.  1.000
+      Bias_b2x2-014.fit   1060.  1.000
+      Bias_b2x2-015.fit   1058.  1.002
+      Bias_b2x2-016.fit   1062.  0.998
+      Bias_b2x2-017.fit   1060.  1.000
+      Bias_b2x2-018.fit   1060.  1.000
+      Bias_b2x2-019.fit   1061.  0.999
+      Bias_b2x2-020.fit   1058.  1.002
+
+  Output image = masterbias, ncombine = 20
+
+Dec  6  0:51: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = sigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Mode  Scale
+  Flat_1.2_b2x2-001_R.fit  34348.  1.005
+  Flat_1.2_b2x2-002_R.fit  34410.  1.003
+  Flat_1.2_b2x2-003_R.fit  34539.  1.000
+  Flat_1.2_b2x2-004_R.fit  34528.  1.000
+  Flat_1.2_b2x2-005_R.fit  34429.  1.003
+  Flat_1.2_b2x2-006_R.fit  34494.  1.001
+  Flat_1.2_b2x2-007_R.fit  34416.  1.003
+  Flat_1.2_b2x2-008_R.fit  34820.  0.992
+  Flat_1.2_b2x2-009_R.fit  34651.  0.997
+  Flat_1.2_b2x2-010_R.fit  34664.  0.996
+
+  Output image = masterflat, ncombine = 10
+
+Dec  6  0:51: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+  Dark_80s_b2x2-001.fit
+  Dark_80s_b2x2-002.fit
+  Dark_80s_b2x2-003.fit
+  Dark_80s_b2x2-004.fit
+  Dark_80s_b2x2-005.fit
+  Dark_80s_b2x2-006.fit
+  Dark_80s_b2x2-007.fit
+  Dark_80s_b2x2-008.fit
+  Dark_80s_b2x2-009.fit
+  Dark_80s_b2x2-010.fit
+
+  Output image = masterdark, ncombine = 10
+2002LJ3_80s_b2x2-001_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+masterdark.fits: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-001_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+masterflat.fits: Dec  6  0:51 Zero level correction image is masterbias.fits
+masterflat.fits: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=0.01500024
+2002LJ3_80s_b2x2-001_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-002_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-002_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-002_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-003_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-003_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-003_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-004_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-004_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-004_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-005_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-005_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-005_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-006_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-006_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-006_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-007_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-007_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-007_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-008_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-008_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-008_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-009_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-009_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-009_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-010_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-010_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-010_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-011_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-011_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-011_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-012_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-012_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-012_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-013_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-013_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-013_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-014_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-014_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-014_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-015_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-015_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-015_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-016_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-016_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-016_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-017_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-017_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-017_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-018_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-018_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-018_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-019_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-019_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-019_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-020_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-020_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-020_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-021_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-021_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-021_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-022_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-022_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-022_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-023_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-023_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-023_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-024_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-024_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-024_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-025_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-025_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-025_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-026_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-026_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-026_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-027_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-027_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-027_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-028_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-028_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-028_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-029_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-029_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-029_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-030_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-030_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-030_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-031_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-031_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-031_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-032_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-032_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-032_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-033_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-033_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-033_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-034_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-034_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-034_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-035_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-035_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-035_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-036_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-036_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-036_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-037_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-037_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-037_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-038_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-038_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-038_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-039_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-039_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-039_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-040_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-040_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-040_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-041_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-041_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-041_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-042_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-042_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-042_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-043_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-043_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-043_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-044_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-044_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-044_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-045_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-045_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-045_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-046_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-046_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-046_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-047_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-047_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-047_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-048_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-048_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-048_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-049_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-049_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-049_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-050_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-050_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-050_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-051_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-051_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-051_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-052_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-052_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-052_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-053_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-053_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-053_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-054_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-054_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-054_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-055_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-055_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-055_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-056_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-056_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-056_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-057_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-057_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-057_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+2002LJ3_80s_b2x2-058_R.fit: Dec  6  0:51 Zero level correction image is masterbias.fits
+2002LJ3_80s_b2x2-058_R.fit: Dec  6  0:51 Dark count correction image is masterdark.fits with scale=1.
+2002LJ3_80s_b2x2-058_R.fit: Dec  6  0:51 Flat field image is masterflat.fits with scale=33426.55
+NOAO/IRAF V2.16 tatianecorrea@tatianepc Fri 01:16:36 06-Dec-2019
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+2002LJ3_80s_b2x  493.42   70.56    0.77   2.682    0.18     -86
+                 493.42   70.56    0.77   2.682    0.18     -86
+                 199.64  240.82    1.22   2.584    0.19     -52
+                 142.16  237.60    0.00   2.570    0.08     -66
+
+  Average full width at half maximum (FWHM) of 2.6197
+NOAO/IRAF V2.16 tatianecorrea@tatianepc Fri 01:24:08 06-Dec-2019
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+2002LJ3_80s_b2x  329.09  126.18    1.14   2.604    0.21      60
+                 337.82  199.73    0.29   2.598    0.11      83
+                 200.27  240.99    1.20   2.650    0.32      89
+                 142.76  237.76    0.00   2.472    0.15      86
+
+  Average full width at half maximum (FWHM) of 2.5545
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sat 00:43:08 25-Jan-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+2002LJ3_80s_b2x  494.05   70.65    0.77   2.730    0.09     -65
+                 337.82  199.73    0.29   2.598    0.11      83
+                 329.09  126.18    1.14   2.604    0.21      60
+                 200.27  240.99    1.20   2.650    0.32      89
+                 142.76  237.76    0.00   2.472    0.15      86
+                 426.83  263.10    4.64   1.209    1.00     -79
+                 426.83  263.10    4.64   1.209    1.00     -79
+                 426.83  263.10    4.64   1.209    1.00     -79
+                 426.83  263.10    4.64   1.209    1.00     -79
+                 426.83  263.10    4.64   1.209    1.00     -79
+                 440.55  152.49    2.65   2.584    0.44      56
+                 440.55  152.49    2.65   2.584    0.44      56
+                 440.55  152.49    2.65   2.584    0.44      56
+                 440.55  152.49    2.65   2.584    0.44      56
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 337.82  199.73    0.29   2.598    0.11      83
+                 200.27  240.99    1.20   2.650    0.32      89
+                 200.27  240.99    1.20   2.650    0.32      89
+                 200.27  240.99    1.20   2.650    0.32      89
+                 200.27  240.99    1.20   2.650    0.32      89
+                 200.27  240.99    1.20   2.650    0.32      89
+                 200.27  240.99    1.20   2.650    0.32      89
+                 200.27  240.99    1.20   2.650    0.32      89
+
+  Average full width at half maximum (FWHM) of 2.5973
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sat 00:44:51 25-Jan-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+  Full width at half maximum (FWHM) of INDEF
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sat 00:45:12 25-Jan-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+2002LJ3_80s_b2x  337.82  199.73    0.00   2.598    0.11      83
+                 329.09  126.18    0.85   2.604    0.21      60
+
+  Average full width at half maximum (FWHM) of 2.6000
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sat 00:46:03 25-Jan-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+2002LJ3_80s_b2x  337.82  199.73    0.00   2.598    0.11      83
+
+  Full width at half maximum (FWHM) of 2.5981
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sat 00:47:33 25-Jan-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+2002LJ3_80s_b2x  142.76  237.76    0.00   2.472    0.15      86
+                 337.82  199.73    0.29   2.598    0.11      83
+                 329.09  126.18    1.14   2.604    0.21      60
+
+  Average full width at half maximum (FWHM) of 2.5395
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sat 00:54:01 25-Jan-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+2002LJ3_80s_b2x  493.42   70.56    0.77   2.682    0.18     -86
+                 199.64  240.82    1.22   2.584    0.19     -52
+                 142.16  237.60    0.00   2.570    0.08     -66
+
+  Average full width at half maximum (FWHM) of 2.6029
+
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sat 00:59:26 25-Jan-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+2002LJ3_80s_b2x  337.82  199.73    0.29   2.598    0.11      83
+                 142.76  237.76    0.00   2.472    0.15      86
+                  17.66   55.35    4.00   2.554    0.00       0
+
+  Average full width at half maximum (FWHM) of 2.5272

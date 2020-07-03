@@ -1,0 +1,41 @@
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 19:54:34 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  181.39  258.42    0.21   2.312    0.11      72
+                 139.06  258.65    3.32   2.192    0.19      60
+                  46.31  163.54    3.08   2.266    0.19      25
+                 306.62  340.86    0.00   2.216    0.08      81
+
+  Average full width at half maximum (FWHM) of 2.2581
+
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 19:57:54 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  504.52   18.92    1.45   2.568    0.16      58
+                 306.91  340.93    0.00   2.392    0.10      79
+                 233.24  433.78    1.93   2.664    0.18     -88
+                 161.96  466.66    1.21   2.374    0.11      59
+                 181.51  258.40    0.23   2.520    0.08      56
+                  88.49   78.42    0.42   2.584    0.08      75
+
+  Average full width at half maximum (FWHM) of 2.4908
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:00:39 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  504.47   19.25    1.37   2.484    0.14      26
+                 344.05  470.94    2.92   2.494    0.14      80
+                 306.93  341.15    0.00   2.432    0.03      60
+                 162.01  466.86    1.20   2.364    0.07      45
+                  89.01   78.75    0.42   2.560    0.12      40
+
+  Average full width at half maximum (FWHM) of 2.4674
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:01:36 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  344.57  326.83    0.00   2.344    0.04      67
+                 478.82  441.26    3.44   2.336    0.15      40
+                 206.73  267.65    0.20   2.368    0.08      85
+                  83.48  107.17    0.42   2.392    0.05      34
+                  57.18  198.43    2.96   2.294    0.19       0
+
+  Average full width at half maximum (FWHM) of 2.3628

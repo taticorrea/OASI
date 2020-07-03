@@ -1,0 +1,10 @@
+Flat_1.2_b2x2-001_R.fit
+Flat_1.2_b2x2-002_R.fit
+Flat_1.2_b2x2-003_R.fit
+Flat_1.2_b2x2-004_R.fit
+Flat_1.2_b2x2-005_R.fit
+Flat_1.2_b2x2-006_R.fit
+Flat_1.2_b2x2-007_R.fit
+Flat_1.2_b2x2-008_R.fit
+Flat_1.2_b2x2-009_R.fit
+Flat_1.2_b2x2-010_R.fit

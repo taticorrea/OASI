@@ -1,0 +1,103 @@
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:05:51 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  306.62  340.86    0.00   2.216    0.08      81
+                 181.39  258.42    0.21   2.312    0.11      72
+                 233.25  451.93    3.67   2.342    0.11     -52
+                 139.06  258.65    3.32   2.192    0.19      60
+                  46.31  163.54    3.08   2.266    0.19      25
+                  88.54   78.71    0.42   2.344    0.15      64
+
+  Average full width at half maximum (FWHM) of 2.2813
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:06:46 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  306.79  341.30    0.00   2.486    0.16      52
+                 181.40  258.41    0.23   2.426    0.16      46
+                 138.99  258.45    3.12   2.280    0.21     -47
+                  88.30   78.54    0.44   2.388    0.08      66
+
+  Average full width at half maximum (FWHM) of 2.4365
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:07:45 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  504.52   18.92    1.45   2.568    0.16      58
+                 306.91  340.93    0.00   2.392    0.10      79
+                 161.96  466.66    1.21   2.374    0.11      59
+                 181.51  258.40    0.23   2.520    0.08      56
+                 139.37  258.46    3.00   2.540    0.16     -67
+                  88.49   78.42    0.42   2.584    0.08      75
+
+  Average full width at half maximum (FWHM) of 2.4824
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:08:50 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  504.47   19.25    1.37   2.484    0.14      26
+                 344.05  470.94    2.92   2.494    0.14      80
+                 306.93  341.15    0.00   2.432    0.03      60
+                 204.78  144.30    2.89   2.588    0.17      11
+                 162.01  466.86    1.20   2.364    0.07      45
+                  89.01   78.75    0.42   2.560    0.12      40
+
+  Average full width at half maximum (FWHM) of 2.4709
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:09:42 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  344.57  326.83    0.00   2.344    0.04      67
+                 478.82  441.26    3.44   2.336    0.15      40
+                 206.73  267.65    0.20   2.368    0.08      85
+                  83.48  107.17    0.42   2.392    0.05      34
+                  57.18  198.43    2.96   2.294    0.19       0
+
+  Average full width at half maximum (FWHM) of 2.3628
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:10:39 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  344.29  326.93    0.00   2.192    0.02      84
+                 478.53  441.30    3.58   2.192    0.20      -7
+                 288.15  431.52    1.96   2.302    0.10     -84
+                 223.89  476.23    1.16   2.244    0.15      65
+                 206.36  267.75    0.22   2.278    0.06     -68
+                  83.14  107.16    0.44   2.132    0.08      30
+
+  Average full width at half maximum (FWHM) of 2.2140
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:11:30 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  385.76   41.07    2.69   2.052    0.17      40
+                 344.18  327.13    0.00   2.050    0.01       2
+                 288.02  431.73    1.95   2.018    0.14      73
+                 223.73  476.50    1.13   2.204    0.15      54
+                 206.33  267.99    0.22   2.072    0.07      83
+                  83.06  107.35    0.42   2.150    0.11      19
+
+  Average full width at half maximum (FWHM) of 2.0936
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:12:15 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  344.23  327.26    0.00   1.967    0.07     -88
+                 288.12  431.81    1.93   1.989    0.21     -89
+                 223.85  476.59    1.18   2.042    0.07      56
+                 206.26  268.05    0.23   1.965    0.09      77
+                  83.03  107.57    0.42   1.908    0.09      41
+
+  Average full width at half maximum (FWHM) of 1.9628
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:13:09 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  376.39  289.10    0.00   2.054    0.07      26
+                 336.32  476.66    1.14   2.182    0.08     -12
+                 226.56  298.76    0.25   2.154    0.08      32
+                  44.02  211.22    0.45   2.024    0.10      17
+
+  Average full width at half maximum (FWHM) of 2.0913
+NOAO/IRAF V2.16 tatianecorrea@lenovo Sun 20:14:03 09-Feb-2020
+
+          Image  Column    Line     Mag    FWHM   Ellip      PA SAT
+GD108_10s_b2x2-  290.76   60.40    3.12   2.354    0.16      64
+                 376.61  289.38    0.00   2.350    0.14     -60
+                 373.71  407.92    1.91   2.270    0.16      85
+                 226.70  298.97    0.21   2.268    0.15     -58
+                  44.14  211.48    0.46   2.252    0.19     -58
+
+  Average full width at half maximum (FWHM) of 2.2964
