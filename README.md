@@ -1,6 +1,6 @@
 ## Observatório Nacional
 
-Repositório com scripts para o processo de redução de imagem e fotometria com o pacote IRAF e alguns scripts em python para análise de dados.
+Repositório com scripts para o processo de redução de imagem e fotometria com o pacote IRAF e alguns scripts em python para análise de dados e cálculo do seeing.
 
 Created repository for store image reduction process and photometry scripts with IRAF package and some scripts in python for data analysis.
 
